@@ -13,4 +13,4 @@ echo "current dir: ${SCRIPT_DIR}"
 echo "hostID: ${HOST_ID}"
 
 ./open.sh
-./workspace/${HOST_ID}/install.sh
+./workspace/install.sh ${HOST_ID}
